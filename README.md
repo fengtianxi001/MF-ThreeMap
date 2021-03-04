@@ -1,4 +1,5 @@
-# Three_geo
+# THREE_GEO
+
 
 ## Project introduction
 This is a `three.js` project built with `vue-cli`, and the geographic map module is in the [w3reality](https://github.com/w3reality/three-geo) on the basis of simple modification and encapsulation，And other 3D models are introduced into the project.
@@ -18,7 +19,7 @@ $ npm i three-geo
 
 ## Usage
 
-**On the use of Geo map **
+** On the use of Geo map **
 
 - You need to open `components> three_geo> TMap> config`, And modify `tokenmapbox` property options
 - You can get `tokenmapbox` on [mapBox](https://account.mapbox.com/)
