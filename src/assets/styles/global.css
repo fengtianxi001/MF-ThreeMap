@@ -1,0 +1,15 @@
+.turbine-label {
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    text-align: center;
+    color: #cccccc;
+    border-radius: 50%;
+    text-shadow: 0 0 10px #000;
+    background-color: rgba(0, 0, 0, 0.4);
+    list-style: none;
+    cursor: pointer;
+}
