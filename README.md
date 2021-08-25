@@ -20,8 +20,10 @@
 [点击体验](http://112.124.22.244/ThreeGeo/#/Home)
 
 ## 效果展示
+![demo1](https://raw.githubusercontent.com/fengtianxi001/Three-3DMap/main/screenshot/6.png)
+![demo1](https://raw.githubusercontent.com/fengtianxi001/Three-3DMap/main/screenshot/5.png)
 ![demo1](https://raw.githubusercontent.com/fengtianxi001/Three-3DMap/main/screenshot/2.png)
-![demo2](https://raw.githubusercontent.com/fengtianxi001/Three-3DMap/main/screenshot/1.png)
+![demo2](https://raw.githubusercontent.com/fengtianxi001/Three-3DMap/main/screenshot/7.png)
 
 
 
