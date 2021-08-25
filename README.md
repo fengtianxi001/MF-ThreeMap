@@ -1,93 +1,27 @@
-## Product description：
+# 🚀 Three-3DMAP!
 
-> This is a template file based on Vue 2.0
-
-
-
-## About using
-
-
-
-### 1. Vuex
-
-This project uses modularity to organize `Vuex`，If you need the new store module, you just need to add the module folder under the store folder, the program will automatically retrieve and introduce the `index.js` under the folder
+<div>
+  <img src="https://img.shields.io/badge/language-javascript-4bc51d.svg">
+  <img src="https://travis-ci.org/boennemann/badges.svg?branch=master">
+  <img src="https://img.shields.io/github/issues/fengtianxi001/Three-3DMap">
+  <img src="https://img.shields.io/github/forks/fengtianxi001/Three-3DMap">
+  <img src="https://img.shields.io/github/stars/fengtianxi001/Three-3DMap">
+</div>
 
 
+## 在线预览
 
-### 2. Vue-router
+> 案例由于地图范围有75km,图片资源第一次加载需要较长时间,请耐心等待
 
-This project uses modularity to organize `Vue-router`, If you need to create a new Page in the views folder, the program will load the file automatically and you can access it directly from your route. 
+> 如需提高地图瓦片清晰度,可以修改`src/components/Map`组件的配置项,案例的瓦片层级是12,最高17 
 
-* the name of the route depends on the name attribute of your page component
+> 请使用`chorme`浏览器打开, 360浏览器或者其他浏览器请将模式调整成`极速模式` 
 
-Examples: 
+[点击体验](http://112.124.22.244/ThreeGeo/#/Home)
 
-```vue
-// view > demo.vue
-<template>...</template>
-<script>
-	export default{
-        name: "demo"
-    }
-</script>
-```
-
-- You can access it in your browser  `${host}:${port}/#/demo`
-- You can jump on the program `this.router.push(demo)`
+## 效果展示
+![demo1](https://raw.githubusercontent.com/fengtianxi001/Three-3DMap/main/screenshot/2.png)
+![demo2](https://raw.githubusercontent.com/fengtianxi001/Three-3DMap/main/screenshot/1.png)
 
 
-
-###  3. componets
-
-####	3-1. svg-icon
-
->  ICON material for this project uses [iconfont](https://www.iconfont.cn/) library, and is introduced in the symbol way
-
-- Create: You need to download the project on the [iconfont](https://www.iconfont.cn/), And copy the folder to the project's `src>assets>iconfont` folder, The program automatically loads the material in that directory
-- Use:  You can import the component where you want it,  And Pass in a icon-name, which you need to get on iconfont
-
-Examples:  
-
-```vue
-<template>
-	<svg-icon icon="xxxx"></svg-icon>
-</template>
-```
-
-
-
-### 4. websocket
-
-> This project encapsulates websocket, It includes offline reconnection, heartbeat detection and more
-
-- init: You need to ` import { create } from '@/api/websocket/index.js'`,And `create(${url})`
-
-- send:  You need to ` import { sendMessage} from '@/api/websocket/sendMessage.js'`
-
-  Examples:
-
-  ```js
-  import { sendMessage} from '@/api/websocket/sendMessage.js'
-  const param = {
-      id: 1000, //required
-      //....
-  }
-  sendMessage(params, response => {
-      console.log(response)
-  })
-  ```
-
-  > Each param needs to have a unique id attribute, and callback is automatically called when the request is responded to
-
-
-
-###  5.axios
-
-> This project provides the infrastructure for axios(Interceptor/baseURL). You can change it in the `src > utils > request` 
-
-
-
-###  6. request API
-
-> All program requests are placed at `src > api`, You can refer to the `member.js `
 
