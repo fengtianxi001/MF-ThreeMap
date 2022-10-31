@@ -1,29 +1,35 @@
-# 🚀 Three-3DMAP!
+# 🗺 MF-ThreeMap
 
-<div>
-  <img src="https://img.shields.io/badge/language-javascript-4bc51d.svg">
-  <img src="https://travis-ci.org/boennemann/badges.svg?branch=master">
-  <img src="https://img.shields.io/github/issues/fengtianxi001/Three-3DMap">
-  <img src="https://img.shields.io/github/forks/fengtianxi001/Three-3DMap">
-  <img src="https://img.shields.io/github/stars/fengtianxi001/Three-3DMap">
-</div>
+> 一个纯three.js实现的3D地图方案
 
+## 项目提示
 
-## 在线预览
+- 由于案例的地图范围有75km,图片资源第一次加载需要较长时间,请耐心等待
+  
+- 如需提高地图瓦片清晰度,可以修改`src/components/Map`组件的配置项,案例的瓦片层级是12,最高17
+  
+- 请使用`chorme`浏览器打开, 360浏览器或者其他浏览器请将模式调整成`极速模式`
+  
 
-> 案例由于地图范围有75km,图片资源第一次加载需要较长时间,请耐心等待
+## 项目简介
 
-> 如需提高地图瓦片清晰度,可以修改`src/components/Map`组件的配置项,案例的瓦片层级是12,最高17 
+在项目中需要应用的知识点:
 
-> 请使用`chorme`浏览器打开, 360浏览器或者其他浏览器请将模式调整成`极速模式` 
+- [x] `EPSG:4326`与 `EPSG:3857`的坐标系的转换
+  
+- [x] 地图瓦片数量与缩放层级的数量关系
+  
+- [x] 缩放层级和分辨率的数量关系
+  
+- [x] 分辨率与实际距离数量关系
+  
+- [x] 通过经纬度计算瓦片地图的行列号
+  
+- [x] 地图瓦片原点和`EPSG:3857`坐标系原点的差异
+  
 
-[点击体验](http://112.124.22.244/ThreeGeo/#/Home)
+##
 
-## 效果展示
-![demo1](https://raw.githubusercontent.com/fengtianxi001/Three-3DMap/main/screenshot/6.png)
-![demo1](https://raw.githubusercontent.com/fengtianxi001/Three-3DMap/main/screenshot/5.png)
-![demo1](https://raw.githubusercontent.com/fengtianxi001/Three-3DMap/main/screenshot/2.png)
-![demo2](https://raw.githubusercontent.com/fengtianxi001/Three-3DMap/main/screenshot/7.png)
+## 项目截图
 
-
-
+![](https://raw.githubusercontent.com/fengtianxi001/Three-3DMap/main/screenshot/5.png)
