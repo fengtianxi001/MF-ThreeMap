@@ -1,0 +1,26 @@
+{
+  "name": "mf-threemap",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/get-pixels": "^3.3.2",
+    "@types/lodash": "^4.14.187",
+    "@types/three": "^0.144.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.0"
+  },
+  "dependencies": {
+    "@mapbox/tile-cover": "^3.0.2",
+    "@turf/turf": "^6.5.0",
+    "get-pixels": "^3.3.3",
+    "lodash": "^4.17.21",
+    "three": "^0.146.0",
+    "vite-plugin-ngmi-polyfill": "^0.0.2"
+  }
+}
